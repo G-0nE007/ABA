@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/your-repo.git'
+                git 'https://github.com/G-0nE007/ABA.git'
             }
         }
         stage('Build Docker Image') {
